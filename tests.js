@@ -38,8 +38,4 @@ describe("sayHello",function (){
         expect(sayHello(2.3)).toBe("Hello, World!")
         expect(sayHello("5")).toBe("Hello, World!")
     });
-
-
-
-
 });

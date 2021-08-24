@@ -5,17 +5,23 @@ function helloWorld() {
 function sayHello(input) {
     if (input === true) {
         return "Hello, World!";
-    } else if (input === false) {
+    }
+    else if (input === false) {
         return "Hello, World!"
-    } else if (input === null) {
+    }
+    else if (input === null) {
         return "Hello, World!";
-    } else if (input === "") {
+    }
+    else if (input === "") {
         return "Hello, World!";
-    } else if (input === 2.3) {
+    }
+    else if (input === 2.3) {
         return "Hello, World!";
-    } else if (input === "5") {
+    }
+    else if (input === "5") {
         return "Hello, World!";
-    } else if ("input") {
+    }
+    else if ("input") {
         return "Hello, " + input + "!";
     }
 }
