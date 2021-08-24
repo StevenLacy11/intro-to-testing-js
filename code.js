@@ -29,3 +29,14 @@ function isFive(input) {
     return input == 5;
     
 }
+function isEven(input){
+    if(input == false) {
+        return false;
+    }
+    else {
+        return input % 2 == 0
+    }
+
+
+}
+
