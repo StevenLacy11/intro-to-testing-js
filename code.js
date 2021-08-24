@@ -33,10 +33,27 @@ function isEven(input){
     if(input == false) {
         return false;
     }
-    else {
+    else{
         return input % 2 == 0
     }
+}
 
+function isVowel(input){
+    if(input === true) {
+        return false;
+    }
+    else if(input == false) {
+        return false;
+    }
+    else if(input === undefined) {
+        return false;
+    }
+    else if(input == ['a','i','e','o','u','A','I','E','O','U']) {
+        return true
+    }
+    else {
+        return false;
+    }
 
 }
 
