@@ -63,3 +63,8 @@ describe("isVowel", function() {
         expect(typeof isVowel()).toBe("boolean");
     });
 });
+describe("add", function() {
+    it('should be a defined function', function () {
+        expect(typeof add).toBe('function');
+    });
+});

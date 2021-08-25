@@ -48,12 +48,16 @@ function isVowel(input){
     else if(input === undefined) {
         return false;
     }
-    else if(input == ['a','i','e','o','u','A','I','E','O','U']) {
-        return true
-    }
-    else {
-        return false;
-    }
+    else return input == ['a', 'i', 'e', 'o', 'u', 'A', 'I', 'E', 'O', 'U'];
 
 }
 
+function add (num1, num2) {
+    if(isNaN(num1) || isNaN(num2)) {
+        return NaN;
+    }
+    else {
+        return parseInt(num1) + parseInt(num2);
+    }
+
+}
